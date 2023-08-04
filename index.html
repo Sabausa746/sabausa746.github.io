@@ -4,226 +4,131 @@
     <meta charset="UTF-8">
     <title>Saba Usanetashvili</title>
     <link rel="icon" type="image/x-icon" href="/images/my.jpg">
-    <style>
-        body {
-            background-color: white;
-        }
-
-        .social {
-            display: inline-block;
-            position: fixed;
-            right: 10px;
-        }
-
-        .social a {
-            font-size: 30px;
-            font-weight: 600;
-            margin: 10px;
-            text-decoration: none;
-            color: rebeccapurple;
-        }
-
-        header h1 {
-            font-size: 32px;
-            font-weight: bold;
-            text-align: center;
-            color: rebeccapurple;
-            border: 8px double white;
-            border-bottom-color: rebeccapurple;
-        }
-
-        header p {
-            margin-top: 10px;
-            color: #555;
-            text-align: center;
-            font-size: 10px;
-
-        }
-
-        footer {
-            font-size: 14px;
-            text-align: center;
-            margin-top: 50px;
-            color: #888;
-        }
-        .text {
-            font-family: Calibri, sans-serif;
-        }
-
-        .SummeryDiv, .EductaionText, .ExperienceText, .SkillsText, .ProjectsText {
-            margin: 0 15px 0 15px;
-        }
-
-        h2 {
-            color: rebeccapurple;
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        strong {
-            color: rebeccapurple;
-            font-size: 17px;
-        }
-
-        p {
-            font-size: 16px;
-        }
-
-        .edSample, .ExperienceSample {
-            display: inline-block;
-            margin: 0 0 0 0;
-            position: relative;
-            top: -15px;
-        }
-
-        .ExperienceDescription {
-            font-style: italic;
-            position: relative;
-            top: -15px;
-        }
-
-        .edImg {
-            width: 40px;
-            position: relative;
-            top: 15px;
-        }
-
-        .School, .University {
-            height: 40px;
-        }
-
-    </style>
-
-
+    <link rel="stylesheet" href="css/education.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/summery.css">
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
+
 <body>
 <div class="social">
     <a href="https://github.com/Sabausa746" class="fab fa-github" target="_blank"></a>
     <a href="https://www.linkedin.com/in/saba-usanetashvili-118435262/" class="fab fa-linkedin" target="_blank"></a>
 </div>
-
 <header>
     <h1>Saba Usanetashvili</h1>
     <p>Contact Information: <a href="mailto:usanetashvili.work@gmail.com">usanetashvili.work@gmail.com</a> | Phone: +995
         599 48 20 59</p>
 </header>
 
-<div class="text">
-    <h2>Professional Summary</h2>
-    <div class="SummeryDiv">
-        <p>My coding experience dates back 5 years to when I first started writing code in C++. After that I learned
-            java
-            and have been working with it for 2 years. Currently, I work at JetBrains Academy, practicing my theoretical
-            knowledge
-            of Java while at the same time working on my teamwork and efficiency. My most recent projects include:<br>
-        <ul class="sumUL">
-            <li>
-                A website that generates practice tasks for the FCE and CAE exams using the ChatGPT API and Django.
-                (work in
-                progress)
-            </li>
-            <li>
-                2D and 3D game clones written in unity. Using complex mathematics to rewrite the built-in physics
-                engine so that I can better understand C#.
-            </li>
-            <li>
-                My Resume, which you are looking at right now.
-            </li>
-        </ul>
-        <p>
-            Currently, I am on a journey of learning everything I can to further boost my skills. I am enrolled in the
-            IT hub academy's
-            Java course, where I am improving my <strong>OOP, Project Management</strong> and <strong>teamwork</strong>
-            skills. Because of my
-            current profession, I am actively revising my theoretical knowledge of <strong>OOP</strong> and <strong>algorithms</strong>
-            on a daily basis.
-        </p>
-    </div>
+<h2>Professional Summary</h2>
+<div class="Summery">
+    <p>My coding experience dates back 5 years to when I first started writing code in C++. After that I learned
+        java
+        and have been working with it for 2 years. Currently, I work at JetBrains Academy, practicing my theoretical
+        knowledge
+        of Java while at the same time working on my teamwork and efficiency. My most recent projects include:<br>
+    <ul class="sumUL">
+        <li>
+            A website that generates practice tasks for the FCE and CAE exams using the ChatGPT API and Django.
+            (work in
+            progress)
+        </li>
+        <li>
+            2D and 3D game clones written in unity. Using complex mathematics to rewrite the built-in physics
+            engine so that I can better understand C#.
+        </li>
+        <li>
+            My Resume, which you are looking at right now.
+        </li>
+    </ul>
+    <p>
+        Currently, I am on a journey of learning everything I can to further boost my skills. I am enrolled in the
+        IT hub academy's
+        Java course, where I am improving my <strong>OOP, Project Management</strong> and <strong>teamwork</strong>
+        skills. Because of my
+        current profession, I am actively revising my theoretical knowledge of <strong>OOP</strong> and <strong>algorithms</strong>
+        on a daily basis.
+    </p>
+</div>
 
-    <div class="ExperienceDiv">
-        <h2>Experience</h2>
-        <div class="ExperienceText">
-            <strong>Java & Algorithm's topic writer</strong><br>
-            <p class="ExperienceSample">JetBrains Academy | 03/2023 - current <a href="https://hyperskill.org/"
-                                                                                 target="_blank"><img
-                    src="images/jetBrains.jpg" class="edImg" alt="JetBrains"/></a></p>
-            <p class="ExperienceDescription">
-                Wrote theoretical material and practice questions, including coding problems, for the JetBrains Academy
-                on
-                the HyperSkill platform about java & algorithms. Wrote testers in python for the aforementioned coding
-                problems. </p>
+<h2>Experience</h2>
+<div class="Experience">
+    <div class="ExperienceExample">
+        <div class="ExperienceTitle">
+            <p class="name"><strong>Java & Algorithm's topic writer</strong> <br> JetBrains Academy | 03/2023 - current
+            </p>
+            <a href="https://hyperskill.org/"
+               target="_blank"><img
+                    src="images/jetBrains.jpg" class="logo" alt="JetBrains" style="height: 44px"/>
+            </a>
         </div>
+        <p class="ExperienceDescription">Wrote theoretical material and practice questions, including coding problems,
+            for the JetBrains Academy on the HyperSkill platform about java & algorithms. Wrote testers in python for
+            the aforementioned coding problems.</p>
+    </div>
+</div>
+
+<h2>Education</h2>
+<div class="Education">
+    <div class="EducationExample">
+        <strong>Bachelor's Degree</strong>: Computer Science, Kutaisi International University, 2022 -
+        <a href="https://www.kiu.edu.ge/" target="_blank">
+            <img class="logo" src="images/kiu.jpg" alt="Kutaisi International University">
+        </a>
+    </div>
+    <div class="EducationExample">
+        <strong>School</strong>: Aia-Gess, 2010-2022 <strong>, 4.0 GPA </strong>
+        <a href="https://www.aia-gess.ge/" target="_blank">
+            <img class="logo" src="images/aia-gess.png" alt="Kutaisi International University">
+        </a>
     </div>
 
-    <div class="EducationDiv">
-        <h2>Education</h2>
-        <div class="EductaionText">
-            <div class="University">
-                <p class="edSample">
-                    <strong>Bachelor's Degree</strong>: Computer Science, Kutaisi International University, 2022 -
-                    <a href="https://www.kiu.edu.ge/" target="_blank">
-                        <img src="images/kiu.jpg" class="edImg" alt="Kutaisi International University">
-                    </a>
-                </p>
-            </div>
-            <div class="School">
-                <p class="edSample">
-                    <strong>School</strong>: Aia-Gess, 2010-2022, <strong>4.0 GPA</strong>
-                    <a href="https://www.aia-gess.ge/" target="_blank">
-                        <img src="images/aia-gess.png" class="edImg" alt="Kutaisi International University">
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
+</div>
 
-    <div class="SkillsDiv">
-        <h2>Skills</h2>
-        <div class="SkillsText">
-            <ul>
-                <li><strong>OOP language</strong>: Java, Python, JavaScript, Kotlin, C++, C#</li>
-                <li><strong>APIs</strong>: AWS, Rest, ChatGPT</li>
-                <li><strong>Database languages</strong>: SQL, MySQL</li>
-                <li><strong>Markup languages</strong>: Xml, Html (and css as demonstrated in this Resume)</li>
-                <li><strong>Project management</strong>: Apache Maven, GitHub/GitLab</li>
-                <li><strong>QA</strong> with JUnit(Jupiter), Python3</li>
-                <li><strong>Soft Skills</strong>: Teamwork, Leadership, Workforce efficiency, Writing, Communications
-                    and media
-                </li>
-                <li><strong>Languages</strong>: Georgian(native), English(C1), Russian(B1), Spanish(A2)</li>
-            </ul>
-        </div>
+<h2>Skills</h2>
+<div class="Skills">
+    <ul>
+        <li><strong>OOP language</strong>: Java, Python, JavaScript, Kotlin, C++, C#</li>
+        <li><strong>APIs</strong>: AWS, Rest, ChatGPT</li>
+        <li><strong>Database languages</strong>: SQL, MySQL</li>
+        <li><strong>Markup languages</strong>: Xml, Html (and css as demonstrated in this Resume)</li>
+        <li><strong>Project management</strong>: Apache Maven, GitHub/GitLab</li>
+        <li><strong>QA</strong> using JUnit(Jupiter), Python3</li>
+        <li><strong>Soft Skills</strong>: Teamwork, Leadership, Workforce efficiency, Writing, Communications
+            and media
+        </li>
+        <li><strong>Languages</strong>: Georgian(native), English(C1), Russian(B1), Spanish(A2)</li>
+    </ul>
+</div>
 
-    </div>
-
-    <div class="ProjectsDiv">
-        <h2>Projects</h2>
-        <div class="ProjectsText">
-            <ul>
-                <li>
-                    <strong>Programming Projects</strong><br>
-                    You can see my programming projects in Java, JS/Html/CSS, and unity on my GitHub by pressing the
-                    GitHub logo
-                    on the top right of your screen.
-                </li>
-                <li>
-                    <strong>Erasmus+ youth exchange programme</strong><br>
-                    Went to a two-week-long Erasmus+ youth exchange programme in Yerevan, Armenia as a Co-Leader. Here I
-                    further developed the aforementioned soft skills such as
-                    <strong>leadership</strong>,<strong> communication</strong>
-                    and <strong>teamwork</strong>.
-                </li>
-                <li>
-                    <strong>Personal Research</strong><br>
-                    Currently researching the behavioral changes during the transition from high school to university,
-                    using
-                    1-on-1 interviews to gather data.
-                </li>
-            </ul>
-        </div>
-    </div>
-
+<h2>Projects</h2>
+<div class="Projects">
+    <ul>
+        <li>
+            <strong>Programming Projects</strong><br>
+            You can see my programming projects in Java, JS/Html/CSS, and unity on my GitHub by pressing the
+            GitHub logo
+            on the top right of your screen.
+        </li>
+        <li>
+            <strong>Erasmus+ youth exchange programme</strong><br>
+            Went to a two-week-long Erasmus+ youth exchange programme in Yerevan, Armenia as a Co-Leader. Here I
+            further developed the aforementioned soft skills such as
+            <strong>leadership</strong>,<strong> communication</strong>
+            and <strong>teamwork</strong>.
+        </li>
+        <li>
+            <strong>Personal Research</strong><br>
+            Currently researching the behavioral changes during the transition from high school to university,
+            using
+            1-on-1 interviews to gather data.
+        </li>
+    </ul>
 </div>
 <footer>
     <p>&copy; 2023 Saba Usanetashvili</p>

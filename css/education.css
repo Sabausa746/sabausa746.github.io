@@ -1,0 +1,18 @@
+.Education {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.EducationExample {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    word-spacing: 2px;
+
+}
+
+.EducationExample p {
+    margin-right: 10px;
+}

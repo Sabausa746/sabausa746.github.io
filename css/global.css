@@ -1,0 +1,22 @@
+.logo {
+    height: 40px;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+}
+
+h2 {
+    color: rebeccapurple;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+strong {
+    color: rebeccapurple;
+    font-size: 17px;
+}
+
+p {
+    font-size: 16px;
+}

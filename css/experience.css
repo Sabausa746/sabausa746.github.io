@@ -1,0 +1,30 @@
+.Experience{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.ExperienceExample {
+    word-spacing: 2px;
+
+}
+.ExperienceCompany{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    word-spacing: 2px;
+}
+.ExperienceTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.ExperienceDescription {
+    font-style: italic;
+}
+
+
+.ExperienceExample p{
+    margin: 0 0 0 0;
+}
